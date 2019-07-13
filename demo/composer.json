@@ -1,0 +1,26 @@
+{
+    "name": "zhoushangtang/demo",
+    "description": "ruanjianbao",
+    "type": "project",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "zhoushangtang",
+            "email": "932007590@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "gregwar/captcha": "dev-master"
+    },
+    "autoload":{
+        "files":[
+            "core/function.php"
+        ],
+        "psr-4":{
+            "core\\":"core",
+            "web\\":"web"
+        }
+    }
+
+}
